@@ -16,5 +16,5 @@ EditorBuildSettings:
     guid: c81bf86fb95a26446ae42f499fcbc766
   m_configObjects:
     AddressableAssetSettings: {fileID: 0}
-    com.unity.addressableassets: {fileID: 11400000, guid: b326c184dbebf6b4e8e5be689c39d470,
+    com.unity.addressableassets: {fileID: 11400000, guid: 528307b2ae9381a4d9ee8811930fbf3c,
       type: 2}

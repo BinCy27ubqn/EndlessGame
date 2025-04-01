@@ -13,9 +13,9 @@ public class PlayerController : MonoBehaviour
 
     public float playerSpeed;
 
-    public float jumpForce;
-
     private Rigidbody rb;
+
+    public PlayerStateMachine playerStateMachine;
 
     private void Start()
     {
@@ -73,10 +73,13 @@ public class PlayerController : MonoBehaviour
                 transform.Translate(dir * speedSwipe * Time.deltaTime);
             }
         }
+    }
 
-        if (Input.GetKeyDown(KeyCode.Space))
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("ground"))
         {
-            rb.velocity = Vector3.up * jumpForce;
+            playerStateMachine.isGround = true;
         }
     }
 }

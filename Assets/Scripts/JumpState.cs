@@ -6,6 +6,12 @@ public class JumpState : PlayerState
 {
     public override void EnterState(PlayerStateMachine player)
     {
-        player.animator.Play("Jump");
+        if (Input.GetKeyDown(KeyCode.Space) && player.isGround)
+        {
+            player.rb.velocity = Vector3.up * player.jumpForce;
+            player.animator.Play("Jump");
+            player.isGround = false;
+        }
     }
+
 }
