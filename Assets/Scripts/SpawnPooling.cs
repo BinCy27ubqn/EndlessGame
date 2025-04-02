@@ -19,7 +19,6 @@ public class SpawnPooling : MonoBehaviour
             RoadSpawn();
         }
     }
-
     void Update()
     {
         if (roadListPooling.Last().transform.position.z - player.position.z < 23.15f)
