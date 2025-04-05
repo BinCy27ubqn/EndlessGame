@@ -81,5 +81,11 @@ public class PlayerController : MonoBehaviour
         {
             playerStateMachine.isGround = true;
         }
+
+        if (collision.gameObject.CompareTag("Obstacle"))
+        {
+            GameManager.Instance.isDead = true;
+            GameManager.Instance.GameOver(this);
+        }
     }
 }
