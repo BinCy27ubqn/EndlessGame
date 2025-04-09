@@ -10,9 +10,10 @@ public class ObstacleSpawn : MonoBehaviour
     public List<GameObject>obstaclePool;
     public GameObject player;
 
+    private float lastRandom = -1;
     void Start()
     {
-        if(Instance != null)
+        if (Instance != null)
         {
             Destroy(gameObject);
         }
@@ -42,7 +43,12 @@ public class ObstacleSpawn : MonoBehaviour
             pref.Add(obstaclePool[i]);
         }
 
-        int ran = Random.Range(0, pref.Count - 1);
+        int ran;
+
+        do
+        {
+            ran = Random.Range(0, pref.Count);
+        } while (lastRandom == ran);
 
         if (!pref[ran].activeInHierarchy)
         {
@@ -50,5 +56,7 @@ public class ObstacleSpawn : MonoBehaviour
         }
 
         pref[ran].transform.position = new Vector3(pref[ran].transform.position.x, pref[ran].transform.position.y, player.transform.position.z + 90f);
+
+        lastRandom = ran;
     }
 }

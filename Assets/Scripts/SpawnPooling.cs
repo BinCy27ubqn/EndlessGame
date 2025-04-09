@@ -14,14 +14,14 @@ public class SpawnPooling : MonoBehaviour
     private float SpawnDistance = 0;
     void Start()
     {
-        for (int i = 0; i < 3; i++)
+        for (int i = 0; i < 4; i++)
         {
             RoadSpawn();
         }
     }
     void Update()
     {
-        if (roadListPooling.Last().transform.position.z - player.position.z < 23.15f)
+        if (roadListPooling[roadListPooling.Count - 2].transform.position.z - player.position.z < 69.45f)
         {
             RecycleRoad();
         }

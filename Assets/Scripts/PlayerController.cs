@@ -17,6 +17,12 @@ public class PlayerController : MonoBehaviour
 
     public PlayerStateMachine playerStateMachine;
 
+    private Vector2 startTouchPosition;
+    private Vector2 currentPosition;
+    private bool stopTouch = false;
+
+    public float swipeRange;
+
     private void Start()
     {
         rb = GetComponent<Rigidbody>();
@@ -73,6 +79,51 @@ public class PlayerController : MonoBehaviour
                 transform.Translate(dir * speedSwipe * Time.deltaTime);
             }
         }
+
+        Swipe();
+    }
+
+    public void Swipe()
+    {
+        if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began)
+        {
+            startTouchPosition = Input.GetTouch(0).position;
+            stopTouch = false;
+        }
+
+        if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Moved && !stopTouch)
+        {
+            currentPosition = Input.GetTouch(0).position;
+            Vector2 Distance = currentPosition - startTouchPosition;
+
+            if (Distance.x < -swipeRange)
+            {
+                if (currentPos > 0)
+                    currentPos--;
+
+                stopTouch = true;
+            }
+            else if (Distance.x > swipeRange)
+            {
+                if (currentPos < 2)
+                    currentPos++;
+
+                stopTouch = true;
+            }
+            else if (Distance.y > swipeRange)
+            {
+                if (playerStateMachine.isGround)
+                {
+                    playerStateMachine.isJump = true;
+                    stopTouch = true;
+                }
+            }
+        }
+
+        if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Ended)
+        {
+            stopTouch = false;
+        }
     }
 
     private void OnCollisionEnter(Collision collision)
@@ -86,6 +137,16 @@ public class PlayerController : MonoBehaviour
         {
             GameManager.Instance.isDead = true;
             GameManager.Instance.GameOver(this);
+        }
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("SpeedUp"))
+        {
+            playerSpeed += 1;
+            UIManager.instance.speedUp.SetActive(true);
+            StartCoroutine(UIManager.instance.HideUIAfterDelay());
         }
     }
 }

@@ -10,14 +10,19 @@ public class UIManager : MonoBehaviour
     public GameObject settingPanel;
     public GameObject endGamePanel;
     public GameObject MenuPanel;
+    public GameObject speedUp;
 
     public TextMeshProUGUI highScore;
     public TextMeshProUGUI highScoreOver;
     private void Awake()
     {
-        if(instance != null)
+        if (instance == null)
         {
             instance = this;
+        }
+        else
+        {
+            Destroy(gameObject);
         }
     }
 
@@ -32,5 +37,9 @@ public class UIManager : MonoBehaviour
         obj.SetActive(!obj.activeSelf);
     }
 
-
+    public IEnumerator HideUIAfterDelay()
+    {
+        yield return new WaitForSeconds(1f);
+        speedUp.SetActive(false);
+    }
 }

@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class PlayerStateMachine : MonoBehaviour
 {
+    public static PlayerStateMachine Instance;
+
+    public bool isJump = false;
+
     public bool isGround;
     public float jumpForce;
 
@@ -13,15 +17,26 @@ public class PlayerStateMachine : MonoBehaviour
     
     private PlayerState currentState;
 
+    private void Awake()
+    {
+        if (Instance == null)
+        {
+            Instance = this;
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
+
     private void Start()
     {
         isGround = true;
-        ChangeState(new RunState());
     }
 
     private void Update()
     {
-        if (isGround)
+        if (isGround && GameManager.Instance.startGame)
         {
             if (currentState is RunState)
             {

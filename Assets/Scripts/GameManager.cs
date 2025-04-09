@@ -3,15 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-
-public enum GameState
-{
-    MainMenu,
-    Playing,
-    GameOver,
-    Pause
-}
-
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance;
@@ -23,6 +14,8 @@ public class GameManager : MonoBehaviour
 
     public float distanceTravel = 0;
 
+    public AudioSource audioSourceClickStart;
+    public AudioClip clickSound;
     private void Awake()
     {
         if(Instance != null && Instance != this)
@@ -45,6 +38,9 @@ public class GameManager : MonoBehaviour
     {
         startGame = true;
         Time.timeScale = 1;
+
+        audioSourceClickStart.PlayOneShot(clickSound);
+        PlayerStateMachine.Instance.ChangeState(new RunState());
     }
     
     public void PauseGame(int number)
@@ -67,4 +63,5 @@ public class GameManager : MonoBehaviour
     {
         gameOverPanel.SetActive(true);
     }
+
 }
