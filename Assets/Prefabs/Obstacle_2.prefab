@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5818047209634710999}
   m_Layer: 0
   m_Name: Obstacle_2
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -68,7 +68,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6319645367651565993}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 78.3}
+  m_LocalPosition: {x: 0, y: 0, z: 38.3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -182,6 +182,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: car_police
       objectReference: {fileID: 0}
+    - target: {fileID: 6478251625217981808, guid: 0be6b7c4cb2bcab4a96fe07dd71dae2d,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0be6b7c4cb2bcab4a96fe07dd71dae2d, type: 3}
 --- !u!4 &5838086312023554358 stripped
@@ -272,6 +277,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: car_sedan
       objectReference: {fileID: 0}
+    - target: {fileID: 4452388520382584971, guid: f80bb101f9e5feb4cb4ee0ad4fb471d1,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f80bb101f9e5feb4cb4ee0ad4fb471d1, type: 3}
 --- !u!4 &4176463460242076802 stripped
@@ -291,6 +301,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: car_taxi
+      objectReference: {fileID: 0}
+    - target: {fileID: 1306865157018316691, guid: 9c1819dbd357b8745ae5349f6118f2f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 1831058783877018921, guid: 9c1819dbd357b8745ae5349f6118f2f9,
         type: 3}
@@ -382,6 +397,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: car_taxi (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1306865157018316691, guid: 9c1819dbd357b8745ae5349f6118f2f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 1831058783877018921, guid: 9c1819dbd357b8745ae5349f6118f2f9,
         type: 3}
       propertyPath: m_RootOrder
@@ -471,6 +491,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: car_hatchback (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 115713604701392909, guid: 94865695f9c40c047b1e0b8c87bf4da3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 779342936718985911, guid: 94865695f9c40c047b1e0b8c87bf4da3,
         type: 3}
@@ -632,6 +657,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: car_sedan (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4452388520382584971, guid: f80bb101f9e5feb4cb4ee0ad4fb471d1,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f80bb101f9e5feb4cb4ee0ad4fb471d1, type: 3}
 --- !u!4 &7366767990091922843 stripped
@@ -651,6 +681,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: car_stationwagon (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2358527014085495017, guid: ff4b6fe353134d54e8c5b21c4d00074c,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 3166307058119791187, guid: ff4b6fe353134d54e8c5b21c4d00074c,
         type: 3}
@@ -742,6 +777,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: car_hatchback (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 115713604701392909, guid: 94865695f9c40c047b1e0b8c87bf4da3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 779342936718985911, guid: 94865695f9c40c047b1e0b8c87bf4da3,
         type: 3}
       propertyPath: m_RootOrder
@@ -832,6 +872,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: car_stationwagon (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 2358527014085495017, guid: ff4b6fe353134d54e8c5b21c4d00074c,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 3166307058119791187, guid: ff4b6fe353134d54e8c5b21c4d00074c,
         type: 3}
       propertyPath: m_RootOrder
@@ -921,6 +966,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: car_stationwagon
+      objectReference: {fileID: 0}
+    - target: {fileID: 2358527014085495017, guid: ff4b6fe353134d54e8c5b21c4d00074c,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 3166307058119791187, guid: ff4b6fe353134d54e8c5b21c4d00074c,
         type: 3}

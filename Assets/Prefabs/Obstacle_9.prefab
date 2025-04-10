@@ -26,7 +26,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1220149898243621584}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 291.13}
+  m_LocalPosition: {x: 0, y: 0, z: 251.13}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -292,6 +292,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: watertower (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 1047758893899285173, guid: 2e2c8826af0978b49b9f0239e972f793,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2e2c8826af0978b49b9f0239e972f793, type: 3}
 --- !u!4 &456639114027259161 stripped
@@ -382,6 +387,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: dumpster (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 9184269715825598297, guid: 076174e7765e60e41a0b528816cd6ea5,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 076174e7765e60e41a0b528816cd6ea5, type: 3}
 --- !u!4 &8260775035564383638 stripped
@@ -456,6 +466,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: box_A (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6681441591238608125, guid: 18561f2b8923478479a3d527a6e83bb3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 18561f2b8923478479a3d527a6e83bb3, type: 3}
@@ -547,6 +562,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: dumpster (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 9184269715825598297, guid: 076174e7765e60e41a0b528816cd6ea5,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 076174e7765e60e41a0b528816cd6ea5, type: 3}
 --- !u!4 &8346988242765968750 stripped
@@ -637,6 +657,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: dumpster (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 9184269715825598297, guid: 076174e7765e60e41a0b528816cd6ea5,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 076174e7765e60e41a0b528816cd6ea5, type: 3}
 --- !u!4 &9109759000294349698 stripped
@@ -712,6 +737,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: box_A (36)
       objectReference: {fileID: 0}
+    - target: {fileID: 6681441591238608125, guid: 18561f2b8923478479a3d527a6e83bb3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 18561f2b8923478479a3d527a6e83bb3, type: 3}
 --- !u!4 &6737348402829230623 stripped
@@ -786,6 +816,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: box_A (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6681441591238608125, guid: 18561f2b8923478479a3d527a6e83bb3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 18561f2b8923478479a3d527a6e83bb3, type: 3}
@@ -877,6 +912,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: dumpster (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 9184269715825598297, guid: 076174e7765e60e41a0b528816cd6ea5,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 076174e7765e60e41a0b528816cd6ea5, type: 3}
 --- !u!4 &9143628638974873030 stripped
@@ -966,6 +1006,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: dumpster (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9184269715825598297, guid: 076174e7765e60e41a0b528816cd6ea5,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 076174e7765e60e41a0b528816cd6ea5, type: 3}
@@ -1057,6 +1102,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: watertower (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 1047758893899285173, guid: 2e2c8826af0978b49b9f0239e972f793,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2e2c8826af0978b49b9f0239e972f793, type: 3}
 --- !u!4 &852343988642195244 stripped
@@ -1132,6 +1182,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: box_A (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 6681441591238608125, guid: 18561f2b8923478479a3d527a6e83bb3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 18561f2b8923478479a3d527a6e83bb3, type: 3}
 --- !u!4 &5020797163421762602 stripped
@@ -1206,6 +1261,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: box_A (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6681441591238608125, guid: 18561f2b8923478479a3d527a6e83bb3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 18561f2b8923478479a3d527a6e83bb3, type: 3}
@@ -1297,6 +1357,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: watertower (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 1047758893899285173, guid: 2e2c8826af0978b49b9f0239e972f793,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2e2c8826af0978b49b9f0239e972f793, type: 3}
 --- !u!4 &1349122919605576068 stripped
@@ -1387,6 +1452,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: q
       objectReference: {fileID: 0}
+    - target: {fileID: 9184269715825598297, guid: 076174e7765e60e41a0b528816cd6ea5,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 076174e7765e60e41a0b528816cd6ea5, type: 3}
 --- !u!4 &7787735490738194470 stripped
@@ -1461,6 +1531,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: box_A (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6681441591238608125, guid: 18561f2b8923478479a3d527a6e83bb3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 18561f2b8923478479a3d527a6e83bb3, type: 3}
@@ -1552,6 +1627,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: dumpster (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 9184269715825598297, guid: 076174e7765e60e41a0b528816cd6ea5,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 076174e7765e60e41a0b528816cd6ea5, type: 3}
 --- !u!4 &7870233231654659353 stripped
@@ -1641,6 +1721,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: watertower (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1047758893899285173, guid: 2e2c8826af0978b49b9f0239e972f793,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2e2c8826af0978b49b9f0239e972f793, type: 3}
@@ -1732,6 +1817,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: dumpster (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 9184269715825598297, guid: 076174e7765e60e41a0b528816cd6ea5,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 076174e7765e60e41a0b528816cd6ea5, type: 3}
 --- !u!4 &7566618824414310864 stripped
@@ -1821,6 +1911,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: dumpster (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9184269715825598297, guid: 076174e7765e60e41a0b528816cd6ea5,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 076174e7765e60e41a0b528816cd6ea5, type: 3}
@@ -1912,6 +2007,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: dumpster (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 9184269715825598297, guid: 076174e7765e60e41a0b528816cd6ea5,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 076174e7765e60e41a0b528816cd6ea5, type: 3}
 --- !u!4 &6246547406413634684 stripped
@@ -1986,6 +2086,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: box_A (34)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6681441591238608125, guid: 18561f2b8923478479a3d527a6e83bb3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 18561f2b8923478479a3d527a6e83bb3, type: 3}
@@ -2077,6 +2182,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: watertower (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 1047758893899285173, guid: 2e2c8826af0978b49b9f0239e972f793,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2e2c8826af0978b49b9f0239e972f793, type: 3}
 --- !u!4 &2459898832640469972 stripped
@@ -2152,6 +2262,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: box_A (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 6681441591238608125, guid: 18561f2b8923478479a3d527a6e83bb3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 18561f2b8923478479a3d527a6e83bb3, type: 3}
 --- !u!4 &8928064240913814509 stripped
@@ -2226,6 +2341,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: box_A (39)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6681441591238608125, guid: 18561f2b8923478479a3d527a6e83bb3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 18561f2b8923478479a3d527a6e83bb3, type: 3}
@@ -2317,6 +2437,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: dumpster (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 9184269715825598297, guid: 076174e7765e60e41a0b528816cd6ea5,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 076174e7765e60e41a0b528816cd6ea5, type: 3}
 --- !u!4 &6426022219004083331 stripped
@@ -2407,6 +2532,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: dumpster (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 9184269715825598297, guid: 076174e7765e60e41a0b528816cd6ea5,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 076174e7765e60e41a0b528816cd6ea5, type: 3}
 --- !u!4 &6459832375570215143 stripped
@@ -2481,6 +2611,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: box_A (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6681441591238608125, guid: 18561f2b8923478479a3d527a6e83bb3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 18561f2b8923478479a3d527a6e83bb3, type: 3}
@@ -2557,6 +2692,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: box_A (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 6681441591238608125, guid: 18561f2b8923478479a3d527a6e83bb3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 18561f2b8923478479a3d527a6e83bb3, type: 3}
 --- !u!4 &7270792811748059320 stripped
@@ -2631,6 +2771,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: box_A (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6681441591238608125, guid: 18561f2b8923478479a3d527a6e83bb3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 18561f2b8923478479a3d527a6e83bb3, type: 3}
@@ -2707,6 +2852,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: box_A (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 6681441591238608125, guid: 18561f2b8923478479a3d527a6e83bb3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 18561f2b8923478479a3d527a6e83bb3, type: 3}
 --- !u!4 &7156601550540088755 stripped
@@ -2781,6 +2931,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: box_A (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6681441591238608125, guid: 18561f2b8923478479a3d527a6e83bb3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 18561f2b8923478479a3d527a6e83bb3, type: 3}
@@ -2872,6 +3027,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: dumpster (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 9184269715825598297, guid: 076174e7765e60e41a0b528816cd6ea5,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 076174e7765e60e41a0b528816cd6ea5, type: 3}
 --- !u!4 &4853326521045613375 stripped
@@ -2946,6 +3106,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: box_A (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6681441591238608125, guid: 18561f2b8923478479a3d527a6e83bb3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 18561f2b8923478479a3d527a6e83bb3, type: 3}
@@ -3037,6 +3202,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: dumpster (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 9184269715825598297, guid: 076174e7765e60e41a0b528816cd6ea5,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 076174e7765e60e41a0b528816cd6ea5, type: 3}
 --- !u!4 &3895075655083173080 stripped
@@ -3111,6 +3281,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: box_A (32)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6681441591238608125, guid: 18561f2b8923478479a3d527a6e83bb3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 18561f2b8923478479a3d527a6e83bb3, type: 3}
@@ -3202,6 +3377,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: q (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 9184269715825598297, guid: 076174e7765e60e41a0b528816cd6ea5,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 076174e7765e60e41a0b528816cd6ea5, type: 3}
 --- !u!4 &3582122204395815599 stripped
@@ -3276,6 +3456,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: box_A (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6681441591238608125, guid: 18561f2b8923478479a3d527a6e83bb3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 18561f2b8923478479a3d527a6e83bb3, type: 3}
@@ -3367,6 +3552,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: watertower (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 1047758893899285173, guid: 2e2c8826af0978b49b9f0239e972f793,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2e2c8826af0978b49b9f0239e972f793, type: 3}
 --- !u!4 &4824120165608628444 stripped
@@ -3442,6 +3632,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: box_A (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 6681441591238608125, guid: 18561f2b8923478479a3d527a6e83bb3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 18561f2b8923478479a3d527a6e83bb3, type: 3}
 --- !u!4 &1191480191163266428 stripped
@@ -3516,6 +3711,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: box_A (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6681441591238608125, guid: 18561f2b8923478479a3d527a6e83bb3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 18561f2b8923478479a3d527a6e83bb3, type: 3}
@@ -3607,6 +3807,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: dumpster (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 9184269715825598297, guid: 076174e7765e60e41a0b528816cd6ea5,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 076174e7765e60e41a0b528816cd6ea5, type: 3}
 --- !u!4 &2651241963287871902 stripped
@@ -3681,6 +3886,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: box_A (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6681441591238608125, guid: 18561f2b8923478479a3d527a6e83bb3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 18561f2b8923478479a3d527a6e83bb3, type: 3}
@@ -3772,6 +3982,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: dumpster (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 9184269715825598297, guid: 076174e7765e60e41a0b528816cd6ea5,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 076174e7765e60e41a0b528816cd6ea5, type: 3}
 --- !u!4 &2507119140648125008 stripped
@@ -3846,6 +4061,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: box_A (37)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6681441591238608125, guid: 18561f2b8923478479a3d527a6e83bb3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 18561f2b8923478479a3d527a6e83bb3, type: 3}
@@ -3922,6 +4142,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: box_A (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 6681441591238608125, guid: 18561f2b8923478479a3d527a6e83bb3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 18561f2b8923478479a3d527a6e83bb3, type: 3}
 --- !u!4 &635141083009699125 stripped
@@ -3997,6 +4222,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: box_A (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 6681441591238608125, guid: 18561f2b8923478479a3d527a6e83bb3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 18561f2b8923478479a3d527a6e83bb3, type: 3}
 --- !u!4 &3928337072197400905 stripped
@@ -4071,6 +4301,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: box_A (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6681441591238608125, guid: 18561f2b8923478479a3d527a6e83bb3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 18561f2b8923478479a3d527a6e83bb3, type: 3}
@@ -4162,6 +4397,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: dumpster (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 9184269715825598297, guid: 076174e7765e60e41a0b528816cd6ea5,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 076174e7765e60e41a0b528816cd6ea5, type: 3}
 --- !u!4 &1401508149575201402 stripped
@@ -4236,6 +4476,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: box_A (38)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6681441591238608125, guid: 18561f2b8923478479a3d527a6e83bb3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 18561f2b8923478479a3d527a6e83bb3, type: 3}
@@ -4327,6 +4572,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: dumpster (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 9184269715825598297, guid: 076174e7765e60e41a0b528816cd6ea5,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 076174e7765e60e41a0b528816cd6ea5, type: 3}
 --- !u!4 &2150192309104505485 stripped
@@ -4401,6 +4651,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: box_A (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6681441591238608125, guid: 18561f2b8923478479a3d527a6e83bb3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 18561f2b8923478479a3d527a6e83bb3, type: 3}
@@ -4492,6 +4747,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: dumpster
       objectReference: {fileID: 0}
+    - target: {fileID: 9184269715825598297, guid: 076174e7765e60e41a0b528816cd6ea5,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 076174e7765e60e41a0b528816cd6ea5, type: 3}
 --- !u!4 &2234270170761507165 stripped
@@ -4582,6 +4842,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: watertower (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1047758893899285173, guid: 2e2c8826af0978b49b9f0239e972f793,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2e2c8826af0978b49b9f0239e972f793, type: 3}
 --- !u!4 &7998058056229960075 stripped
@@ -4656,6 +4921,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: box_A (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6681441591238608125, guid: 18561f2b8923478479a3d527a6e83bb3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 18561f2b8923478479a3d527a6e83bb3, type: 3}
@@ -4747,6 +5017,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: watertower (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 1047758893899285173, guid: 2e2c8826af0978b49b9f0239e972f793,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2e2c8826af0978b49b9f0239e972f793, type: 3}
 --- !u!4 &7998058055878844097 stripped
@@ -4836,6 +5111,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: dumpster (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9184269715825598297, guid: 076174e7765e60e41a0b528816cd6ea5,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 076174e7765e60e41a0b528816cd6ea5, type: 3}
@@ -4927,6 +5207,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: watertower (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 1047758893899285173, guid: 2e2c8826af0978b49b9f0239e972f793,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2e2c8826af0978b49b9f0239e972f793, type: 3}
 --- !u!4 &7998058055601965677 stripped
@@ -5001,6 +5286,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: box_A (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6681441591238608125, guid: 18561f2b8923478479a3d527a6e83bb3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 18561f2b8923478479a3d527a6e83bb3, type: 3}
@@ -5092,6 +5382,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: dumpster (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 9184269715825598297, guid: 076174e7765e60e41a0b528816cd6ea5,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 076174e7765e60e41a0b528816cd6ea5, type: 3}
 --- !u!4 &2234270170136287999 stripped
@@ -5166,6 +5461,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: box_A
+      objectReference: {fileID: 0}
+    - target: {fileID: 6681441591238608125, guid: 18561f2b8923478479a3d527a6e83bb3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 18561f2b8923478479a3d527a6e83bb3, type: 3}
@@ -5257,6 +5557,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: watertower (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 1047758893899285173, guid: 2e2c8826af0978b49b9f0239e972f793,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2e2c8826af0978b49b9f0239e972f793, type: 3}
 --- !u!4 &7998058057254588179 stripped
@@ -5331,6 +5636,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: box_A (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6681441591238608125, guid: 18561f2b8923478479a3d527a6e83bb3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 18561f2b8923478479a3d527a6e83bb3, type: 3}
@@ -5422,6 +5732,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: dumpster (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 9184269715825598297, guid: 076174e7765e60e41a0b528816cd6ea5,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 076174e7765e60e41a0b528816cd6ea5, type: 3}
 --- !u!4 &2234270169726474979 stripped
@@ -5496,6 +5811,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: box_A (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6681441591238608125, guid: 18561f2b8923478479a3d527a6e83bb3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 18561f2b8923478479a3d527a6e83bb3, type: 3}
@@ -5587,6 +5907,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: dumpster (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 9184269715825598297, guid: 076174e7765e60e41a0b528816cd6ea5,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 076174e7765e60e41a0b528816cd6ea5, type: 3}
 --- !u!4 &2234270169377901648 stripped
@@ -5677,6 +6002,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: box_B
       objectReference: {fileID: 0}
+    - target: {fileID: 9112573030712155733, guid: 320be4235bc12124d98fb65749f77f67,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 320be4235bc12124d98fb65749f77f67, type: 3}
 --- !u!4 &2162555344727417168 stripped
@@ -5752,6 +6082,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: box_A (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6681441591238608125, guid: 18561f2b8923478479a3d527a6e83bb3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 18561f2b8923478479a3d527a6e83bb3, type: 3}
 --- !u!4 &4381320735915689044 stripped
@@ -5826,6 +6161,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: box_A (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6681441591238608125, guid: 18561f2b8923478479a3d527a6e83bb3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 18561f2b8923478479a3d527a6e83bb3, type: 3}
@@ -5917,6 +6257,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: watertower (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1047758893899285173, guid: 2e2c8826af0978b49b9f0239e972f793,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2e2c8826af0978b49b9f0239e972f793, type: 3}
 --- !u!4 &7998058057145096594 stripped
@@ -6006,6 +6351,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: watertower (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1047758893899285173, guid: 2e2c8826af0978b49b9f0239e972f793,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2e2c8826af0978b49b9f0239e972f793, type: 3}
@@ -6097,6 +6447,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: dumpster (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 9184269715825598297, guid: 076174e7765e60e41a0b528816cd6ea5,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 076174e7765e60e41a0b528816cd6ea5, type: 3}
 --- !u!4 &2234270169177308085 stripped
@@ -6187,6 +6542,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: dumpster (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 9184269715825598297, guid: 076174e7765e60e41a0b528816cd6ea5,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 076174e7765e60e41a0b528816cd6ea5, type: 3}
 --- !u!4 &2234270169123529748 stripped
@@ -6261,6 +6621,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: box_A (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6681441591238608125, guid: 18561f2b8923478479a3d527a6e83bb3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 18561f2b8923478479a3d527a6e83bb3, type: 3}
@@ -6352,6 +6717,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: watertower
       objectReference: {fileID: 0}
+    - target: {fileID: 1047758893899285173, guid: 2e2c8826af0978b49b9f0239e972f793,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2e2c8826af0978b49b9f0239e972f793, type: 3}
 --- !u!4 &7998058056595507698 stripped
@@ -6442,6 +6812,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: dumpster (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 9184269715825598297, guid: 076174e7765e60e41a0b528816cd6ea5,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 076174e7765e60e41a0b528816cd6ea5, type: 3}
 --- !u!4 &1747470538399861669 stripped
@@ -6516,6 +6891,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: box_A (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6681441591238608125, guid: 18561f2b8923478479a3d527a6e83bb3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 18561f2b8923478479a3d527a6e83bb3, type: 3}
@@ -6607,6 +6987,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: watertower (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 1047758893899285173, guid: 2e2c8826af0978b49b9f0239e972f793,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2e2c8826af0978b49b9f0239e972f793, type: 3}
 --- !u!4 &8174631221284287788 stripped
@@ -6681,6 +7066,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: box_A (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6681441591238608125, guid: 18561f2b8923478479a3d527a6e83bb3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 18561f2b8923478479a3d527a6e83bb3, type: 3}
@@ -6772,6 +7162,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: watertower (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 1047758893899285173, guid: 2e2c8826af0978b49b9f0239e972f793,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2e2c8826af0978b49b9f0239e972f793, type: 3}
 --- !u!4 &8350695694088376876 stripped
@@ -6861,6 +7256,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: dumpster (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9184269715825598297, guid: 076174e7765e60e41a0b528816cd6ea5,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 076174e7765e60e41a0b528816cd6ea5, type: 3}
@@ -6952,6 +7352,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: dumpster (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 9184269715825598297, guid: 076174e7765e60e41a0b528816cd6ea5,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 076174e7765e60e41a0b528816cd6ea5, type: 3}
 --- !u!4 &282269832516800395 stripped
@@ -7026,6 +7431,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: box_A (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6681441591238608125, guid: 18561f2b8923478479a3d527a6e83bb3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 18561f2b8923478479a3d527a6e83bb3, type: 3}
@@ -7117,6 +7527,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: dumpster (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 9184269715825598297, guid: 076174e7765e60e41a0b528816cd6ea5,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 076174e7765e60e41a0b528816cd6ea5, type: 3}
 --- !u!4 &648145261257296922 stripped
@@ -7191,6 +7606,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: box_A (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6681441591238608125, guid: 18561f2b8923478479a3d527a6e83bb3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 18561f2b8923478479a3d527a6e83bb3, type: 3}
@@ -7282,6 +7702,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: dumpster (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 9184269715825598297, guid: 076174e7765e60e41a0b528816cd6ea5,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 076174e7765e60e41a0b528816cd6ea5, type: 3}
 --- !u!4 &718791978355881961 stripped
@@ -7356,6 +7781,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: box_A (33)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6681441591238608125, guid: 18561f2b8923478479a3d527a6e83bb3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 18561f2b8923478479a3d527a6e83bb3, type: 3}
@@ -7447,6 +7877,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: dumpster (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 9184269715825598297, guid: 076174e7765e60e41a0b528816cd6ea5,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 076174e7765e60e41a0b528816cd6ea5, type: 3}
 --- !u!4 &809935542680852693 stripped
@@ -7521,6 +7956,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: box_A (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6681441591238608125, guid: 18561f2b8923478479a3d527a6e83bb3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 18561f2b8923478479a3d527a6e83bb3, type: 3}

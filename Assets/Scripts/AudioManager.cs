@@ -12,8 +12,6 @@ public class AudioManager : MonoBehaviour
     public Slider sliderSound;
     void Start()
     {
-
-
         sliderMusic.value = runMusic.volume;
         sliderMusic.onValueChanged.AddListener(ChangeMusic);
 

@@ -20,10 +20,9 @@ public class ObstacleSpawn : MonoBehaviour
 
         Instance = this;
 
-        Instantiate(obstaclePrefabs[0]);
-
-        obstaclePool.Add(obstaclePrefabs[0]);
-
+        GameObject firstObstacle = Instantiate(obstaclePrefabs[0]);
+        obstaclePool.Add(firstObstacle);
+        
         for (int i = 1; i < obstaclePrefabs.Count; i++)
         {
             GameObject pref = Instantiate(obstaclePrefabs[i]);
@@ -55,7 +54,7 @@ public class ObstacleSpawn : MonoBehaviour
             pref[ran].SetActive(true);
         }
 
-        pref[ran].transform.position = new Vector3(pref[ran].transform.position.x, pref[ran].transform.position.y, player.transform.position.z + 90f);
+        pref[ran].transform.position = new Vector3(pref[ran].transform.position.x, pref[ran].transform.position.y, player.transform.position.z + 130f);
 
         lastRandom = ran;
     }

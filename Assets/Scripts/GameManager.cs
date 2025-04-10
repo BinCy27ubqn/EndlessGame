@@ -15,7 +15,11 @@ public class GameManager : MonoBehaviour
     public float distanceTravel = 0;
 
     public AudioSource audioSourceClickStart;
-    public AudioClip clickSound;
+    public AudioClip clickSoundStart;
+
+    public AudioSource audioSourceEndGame;
+    public AudioClip clickSoundEnd;
+
     private void Awake()
     {
         if(Instance != null && Instance != this)
@@ -39,13 +43,16 @@ public class GameManager : MonoBehaviour
         startGame = true;
         Time.timeScale = 1;
 
-        audioSourceClickStart.PlayOneShot(clickSound);
+        audioSourceClickStart.PlayOneShot(clickSoundStart);
         PlayerStateMachine.Instance.ChangeState(new RunState());
     }
     
     public void PauseGame(int number)
     {
-        Time.timeScale = number;
+        if (startGame)
+        {
+            Time.timeScale = number;
+        }
     }
 
     public void GameOver(PlayerController playerController)
@@ -56,12 +63,15 @@ public class GameManager : MonoBehaviour
 
     public void ResetGame()
     {
+        FindObjectOfType<InterstitialAdExample>().ShowAd();
         SceneManager.LoadScene("Main");
+
     }
 
     public void DeDead()
     {
         gameOverPanel.SetActive(true);
+        audioSourceEndGame.PlayOneShot(clickSoundEnd);
     }
 
 }
